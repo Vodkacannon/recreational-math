@@ -36,7 +36,7 @@ uint64_t sum_palindromes(uint64_t nth_index) {
   
   while (curr_index < nth_index) {
     if (is_palindrome(number_to_check)) {
-      palindromes.push_back();
+      palindromes.push_back(number_to_check);
       curr_index++;
     }
   }
